@@ -1,0 +1,133 @@
+@media only screen and (max-width: 600px) {
+  body {
+      background-color: blue;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:ital,wght@0,100;1,500&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+
+
+
+* :before,
+* :after {
+  box-sizing: content-box;
+}
+
+div {
+  display :inline-block;
+  margin-top: 85px;
+  margin-left:300px;
+}
+header{
+  position: fixed;
+  align-items: center;
+  left:0;
+  right:0;
+  top:0;
+  height: 65px;
+  background-color: rgba(20, 94, 223, 0.911);
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  color: #fff;
+}
+
+.cart-icon{
+    width:36% !important;
+    position: absolute;
+    margin-top: 3px;
+    left:77%;
+    top:3 px;
+    /*border:solid 1px blue; */
+    padding:10px 20px;
+
+}
+
+*{position: relative;
+  box-sizing: border-box;
+  margin:10;
+  padding:10;
+}
+
+.card-body{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+ 
+i {
+  color: rgba(191, 24, 24, 0.888);
+  font-size: 13px;
+}
+
+/* body{
+    width: 100px;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row-reverse;
+    font-family:'Lato' , sans-serif;
+    background: #ececec;
+  }
+*/
+
+  .box{
+      margin-top: 100px;
+      background: #fff;
+      width: 250px; 
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 5px; 
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #c6c6c6;
+      box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+      margin-right: 50px;
+      
+}
+.box label{
+  margin-left: 25px;
+}
+
+ .box .button{
+  width:  30px;
+  height: 30px;
+  border: 1px solid #c6c6c6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+/*.box.inc.inc button{
+  width: 5px;
+  height:50px;
+  border: 1px solid #c6c6c6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  cursor: pointer;
+
+} */
+.box input{
+  width: 60px;
+  padding: 5px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 22px;
+  margin: 0px 10px;
+} 
+.box .button:active{
+  background: #ccc;
+
+}
+
+
+
+
